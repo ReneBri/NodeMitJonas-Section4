@@ -1,0 +1,1 @@
+In this lecture we learnt about the threadpool and event loop and visualised how they work through console logging.
