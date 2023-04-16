@@ -13,7 +13,7 @@ const { add } = require('./test-module-2');
 console.log(add(2, 2));
 
 // caching
-// see how the top level code in this module doesnt get cslled three times. That's caching.
+// see how the top level code in this module doesnt get called three times. That's caching.
 require('./test-module-3')();
 require('./test-module-3')();
 require('./test-module-3')();
